@@ -152,7 +152,7 @@ UBaseType_t uxCriticalNesting = 0xef;
 		#endif /* __HAS_EDS__ */
 #endif /* MPLAB_PIC24_PORT */
 
-#if defined( __dsPIC30F__ ) || defined( __dsPIC33F__ )
+#if defined( __dsPIC30F__ ) || defined( __dsPIC33F__ ) 
 
 	#define portRESTORE_CONTEXT()																						\
 		asm volatile(	"MOV	_pxCurrentTCB, W0		\n"	/* Restore the stack pointer for the task. */				\
@@ -183,7 +183,7 @@ UBaseType_t uxCriticalNesting = 0xef;
 						"POP.D	W2						\n"																\
 						"POP.D	W0						\n"																\
 						"POP	SR						  " );
-#elif defined( __dsPIC33E__ )
+#elif defined( __dsPIC33E__ ) || defined( __dsPIC33C__ )
 	#define portRESTORE_CONTEXT()																						\
 		asm volatile(	"MOV	_pxCurrentTCB, W0		\n"	/* Restore the stack pointer for the task. */				\
 						"MOV	[W0], W15				\n"																\
@@ -365,10 +365,13 @@ const uint32_t ulCompareMatch = ( ( configCPU_CLOCK_HZ / portTIMER_PRESCALE ) / 
 	/* Enable the interrupt. */
 	IEC0bits.T1IE = 1;
 
+#if defined (__dsPIC33C__)
 	/* Setup the prescale value. */
-	T1CONbits.TCKPS0 = 1;
+	T1CONbits.TCKPS = 1;
+#else
+    T1CONbits.TCKPS0 = 1;
 	T1CONbits.TCKPS1 = 0;
-
+#endif    
 	/* Start the timer. */
 	T1CONbits.TON = 1;
 }

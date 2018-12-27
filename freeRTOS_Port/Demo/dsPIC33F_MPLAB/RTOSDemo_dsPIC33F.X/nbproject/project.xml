@@ -12,6 +12,25 @@
             <asminc-extensions/>
             <sourceEncoding>ISO-8859-1</sourceEncoding>
             <make-dep-projects/>
+            <sourceRootList>
+                <sourceRootElem>..</sourceRootElem>
+                <sourceRootElem>..\serial</sourceRootElem>
+                <sourceRootElem>..\..\..\Source\portable\MemMang</sourceRootElem>
+                <sourceRootElem>..\ParTest</sourceRootElem>
+                <sourceRootElem>..\..\..\Source\include</sourceRootElem>
+                <sourceRootElem>..\..\Common\Minimal</sourceRootElem>
+                <sourceRootElem>..\..\..\Source</sourceRootElem>
+                <sourceRootElem>..\..\..\Source\portable\MPLAB\PIC24_dsPIC</sourceRootElem>
+            </sourceRootList>
+            <confList>
+                <confElem>
+                    <name>default</name>
+                    <type>2</type>
+                </confElem>
+            </confList>
+            <formatting>
+                <project-formatting-style>false</project-formatting-style>
+            </formatting>
         </data>
     </configuration>
 </project>
