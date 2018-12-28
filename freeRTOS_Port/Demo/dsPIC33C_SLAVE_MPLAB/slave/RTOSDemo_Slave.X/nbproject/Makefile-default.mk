@@ -57,17 +57,17 @@ OBJECTDIR=build/${CND_CONF}/${IMAGE_TYPE}
 DISTDIR=dist/${CND_CONF}/${IMAGE_TYPE}
 
 # Source Files Quoted if spaced
-SOURCEFILES_QUOTED_IF_SPACED=../../../../Source/croutine.c ../../../../Source/portable/MemMang/heap_1.c ../../../../Source/list.c ../../../../Source/portable/MPLAB/PIC24_dsPIC/port.c ../../../../Source/portable/MPLAB/PIC24_dsPIC/portasm_dsPIC33C.s ../../../../Source/queue.c ../../../../Source/tasks.c ../../../Common/Minimal/BlockQ.c ../../../Common/Minimal/blocktim.c ../../../Common/Minimal/comtest.c ../../../Common/Minimal/crflash.c ../../../Common/Minimal/integer.c ../main.c ../ParTest/ParTest.c ../serial/serial.c ../lcd.c
+SOURCEFILES_QUOTED_IF_SPACED=../../../../Source/croutine.c ../../../../Source/portable/MemMang/heap_1.c ../../../../Source/list.c ../../../../Source/portable/MPLAB/PIC24_dsPIC/port.c ../../../../Source/queue.c ../../../../Source/tasks.c ../../../Common/Minimal/BlockQ.c ../../../Common/Minimal/blocktim.c ../../../Common/Minimal/comtest.c ../../../Common/Minimal/crflash.c ../../../Common/Minimal/integer.c ../main.c ../ParTest/ParTest.c ../serial/serial.c ../lcd.c ../../../../Source/portable/MPLAB/PIC24_dsPIC/portasm_dsPIC.S
 
 # Object Files Quoted if spaced
-OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/_ext/1431672699/croutine.o ${OBJECTDIR}/_ext/553004290/heap_1.o ${OBJECTDIR}/_ext/1431672699/list.o ${OBJECTDIR}/_ext/1773103261/port.o ${OBJECTDIR}/_ext/1773103261/portasm_dsPIC33C.o ${OBJECTDIR}/_ext/1431672699/queue.o ${OBJECTDIR}/_ext/1431672699/tasks.o ${OBJECTDIR}/_ext/1951973364/BlockQ.o ${OBJECTDIR}/_ext/1951973364/blocktim.o ${OBJECTDIR}/_ext/1951973364/comtest.o ${OBJECTDIR}/_ext/1951973364/crflash.o ${OBJECTDIR}/_ext/1951973364/integer.o ${OBJECTDIR}/_ext/1472/main.o ${OBJECTDIR}/_ext/809743516/ParTest.o ${OBJECTDIR}/_ext/821501661/serial.o ${OBJECTDIR}/_ext/1472/lcd.o
-POSSIBLE_DEPFILES=${OBJECTDIR}/_ext/1431672699/croutine.o.d ${OBJECTDIR}/_ext/553004290/heap_1.o.d ${OBJECTDIR}/_ext/1431672699/list.o.d ${OBJECTDIR}/_ext/1773103261/port.o.d ${OBJECTDIR}/_ext/1773103261/portasm_dsPIC33C.o.d ${OBJECTDIR}/_ext/1431672699/queue.o.d ${OBJECTDIR}/_ext/1431672699/tasks.o.d ${OBJECTDIR}/_ext/1951973364/BlockQ.o.d ${OBJECTDIR}/_ext/1951973364/blocktim.o.d ${OBJECTDIR}/_ext/1951973364/comtest.o.d ${OBJECTDIR}/_ext/1951973364/crflash.o.d ${OBJECTDIR}/_ext/1951973364/integer.o.d ${OBJECTDIR}/_ext/1472/main.o.d ${OBJECTDIR}/_ext/809743516/ParTest.o.d ${OBJECTDIR}/_ext/821501661/serial.o.d ${OBJECTDIR}/_ext/1472/lcd.o.d
+OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/_ext/1431672699/croutine.o ${OBJECTDIR}/_ext/553004290/heap_1.o ${OBJECTDIR}/_ext/1431672699/list.o ${OBJECTDIR}/_ext/1773103261/port.o ${OBJECTDIR}/_ext/1431672699/queue.o ${OBJECTDIR}/_ext/1431672699/tasks.o ${OBJECTDIR}/_ext/1951973364/BlockQ.o ${OBJECTDIR}/_ext/1951973364/blocktim.o ${OBJECTDIR}/_ext/1951973364/comtest.o ${OBJECTDIR}/_ext/1951973364/crflash.o ${OBJECTDIR}/_ext/1951973364/integer.o ${OBJECTDIR}/_ext/1472/main.o ${OBJECTDIR}/_ext/809743516/ParTest.o ${OBJECTDIR}/_ext/821501661/serial.o ${OBJECTDIR}/_ext/1472/lcd.o ${OBJECTDIR}/_ext/1773103261/portasm_dsPIC.o
+POSSIBLE_DEPFILES=${OBJECTDIR}/_ext/1431672699/croutine.o.d ${OBJECTDIR}/_ext/553004290/heap_1.o.d ${OBJECTDIR}/_ext/1431672699/list.o.d ${OBJECTDIR}/_ext/1773103261/port.o.d ${OBJECTDIR}/_ext/1431672699/queue.o.d ${OBJECTDIR}/_ext/1431672699/tasks.o.d ${OBJECTDIR}/_ext/1951973364/BlockQ.o.d ${OBJECTDIR}/_ext/1951973364/blocktim.o.d ${OBJECTDIR}/_ext/1951973364/comtest.o.d ${OBJECTDIR}/_ext/1951973364/crflash.o.d ${OBJECTDIR}/_ext/1951973364/integer.o.d ${OBJECTDIR}/_ext/1472/main.o.d ${OBJECTDIR}/_ext/809743516/ParTest.o.d ${OBJECTDIR}/_ext/821501661/serial.o.d ${OBJECTDIR}/_ext/1472/lcd.o.d ${OBJECTDIR}/_ext/1773103261/portasm_dsPIC.o.d
 
 # Object Files
-OBJECTFILES=${OBJECTDIR}/_ext/1431672699/croutine.o ${OBJECTDIR}/_ext/553004290/heap_1.o ${OBJECTDIR}/_ext/1431672699/list.o ${OBJECTDIR}/_ext/1773103261/port.o ${OBJECTDIR}/_ext/1773103261/portasm_dsPIC33C.o ${OBJECTDIR}/_ext/1431672699/queue.o ${OBJECTDIR}/_ext/1431672699/tasks.o ${OBJECTDIR}/_ext/1951973364/BlockQ.o ${OBJECTDIR}/_ext/1951973364/blocktim.o ${OBJECTDIR}/_ext/1951973364/comtest.o ${OBJECTDIR}/_ext/1951973364/crflash.o ${OBJECTDIR}/_ext/1951973364/integer.o ${OBJECTDIR}/_ext/1472/main.o ${OBJECTDIR}/_ext/809743516/ParTest.o ${OBJECTDIR}/_ext/821501661/serial.o ${OBJECTDIR}/_ext/1472/lcd.o
+OBJECTFILES=${OBJECTDIR}/_ext/1431672699/croutine.o ${OBJECTDIR}/_ext/553004290/heap_1.o ${OBJECTDIR}/_ext/1431672699/list.o ${OBJECTDIR}/_ext/1773103261/port.o ${OBJECTDIR}/_ext/1431672699/queue.o ${OBJECTDIR}/_ext/1431672699/tasks.o ${OBJECTDIR}/_ext/1951973364/BlockQ.o ${OBJECTDIR}/_ext/1951973364/blocktim.o ${OBJECTDIR}/_ext/1951973364/comtest.o ${OBJECTDIR}/_ext/1951973364/crflash.o ${OBJECTDIR}/_ext/1951973364/integer.o ${OBJECTDIR}/_ext/1472/main.o ${OBJECTDIR}/_ext/809743516/ParTest.o ${OBJECTDIR}/_ext/821501661/serial.o ${OBJECTDIR}/_ext/1472/lcd.o ${OBJECTDIR}/_ext/1773103261/portasm_dsPIC.o
 
 # Source Files
-SOURCEFILES=../../../../Source/croutine.c ../../../../Source/portable/MemMang/heap_1.c ../../../../Source/list.c ../../../../Source/portable/MPLAB/PIC24_dsPIC/port.c ../../../../Source/portable/MPLAB/PIC24_dsPIC/portasm_dsPIC33C.s ../../../../Source/queue.c ../../../../Source/tasks.c ../../../Common/Minimal/BlockQ.c ../../../Common/Minimal/blocktim.c ../../../Common/Minimal/comtest.c ../../../Common/Minimal/crflash.c ../../../Common/Minimal/integer.c ../main.c ../ParTest/ParTest.c ../serial/serial.c ../lcd.c
+SOURCEFILES=../../../../Source/croutine.c ../../../../Source/portable/MemMang/heap_1.c ../../../../Source/list.c ../../../../Source/portable/MPLAB/PIC24_dsPIC/port.c ../../../../Source/queue.c ../../../../Source/tasks.c ../../../Common/Minimal/BlockQ.c ../../../Common/Minimal/blocktim.c ../../../Common/Minimal/comtest.c ../../../Common/Minimal/crflash.c ../../../Common/Minimal/integer.c ../main.c ../ParTest/ParTest.c ../serial/serial.c ../lcd.c ../../../../Source/portable/MPLAB/PIC24_dsPIC/portasm_dsPIC.S
 
 
 CFLAGS=
@@ -310,27 +310,27 @@ endif
 # ------------------------------------------------------------------------------------
 # Rules for buildStep: assemble
 ifeq ($(TYPE_IMAGE), DEBUG_RUN)
-${OBJECTDIR}/_ext/1773103261/portasm_dsPIC33C.o: ../../../../Source/portable/MPLAB/PIC24_dsPIC/portasm_dsPIC33C.s  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} "${OBJECTDIR}/_ext/1773103261" 
-	@${RM} ${OBJECTDIR}/_ext/1773103261/portasm_dsPIC33C.o.d 
-	@${RM} ${OBJECTDIR}/_ext/1773103261/portasm_dsPIC33C.o 
-	${MP_CC} $(MP_EXTRA_AS_PRE)  ../../../../Source/portable/MPLAB/PIC24_dsPIC/portasm_dsPIC33C.s  -o ${OBJECTDIR}/_ext/1773103261/portasm_dsPIC33C.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -D__DEBUG -D__MPLAB_DEBUGGER_ICD3=1  -omf=elf -save-temps=obj -DXPRJ_default=$(CND_CONF)  -legacy-libc  -I".." -I"." -Wa,-MD,"${OBJECTDIR}/_ext/1773103261/portasm_dsPIC33C.o.d",--defsym=__MPLAB_BUILD=1,--defsym=__ICD2RAM=1,--defsym=__MPLAB_DEBUG=1,--defsym=__DEBUG=1,--defsym=__MPLAB_DEBUGGER_ICD3=1,-g,--no-relax,-g$(MP_EXTRA_AS_POST)
-	@${FIXDEPS} "${OBJECTDIR}/_ext/1773103261/portasm_dsPIC33C.o.d"  $(SILENT)  -rsi ${MP_CC_DIR}../  
-	
 else
-${OBJECTDIR}/_ext/1773103261/portasm_dsPIC33C.o: ../../../../Source/portable/MPLAB/PIC24_dsPIC/portasm_dsPIC33C.s  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} "${OBJECTDIR}/_ext/1773103261" 
-	@${RM} ${OBJECTDIR}/_ext/1773103261/portasm_dsPIC33C.o.d 
-	@${RM} ${OBJECTDIR}/_ext/1773103261/portasm_dsPIC33C.o 
-	${MP_CC} $(MP_EXTRA_AS_PRE)  ../../../../Source/portable/MPLAB/PIC24_dsPIC/portasm_dsPIC33C.s  -o ${OBJECTDIR}/_ext/1773103261/portasm_dsPIC33C.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -omf=elf -save-temps=obj -DXPRJ_default=$(CND_CONF)  -legacy-libc  -I".." -I"." -Wa,-MD,"${OBJECTDIR}/_ext/1773103261/portasm_dsPIC33C.o.d",--defsym=__MPLAB_BUILD=1,-g,--no-relax,-g$(MP_EXTRA_AS_POST)
-	@${FIXDEPS} "${OBJECTDIR}/_ext/1773103261/portasm_dsPIC33C.o.d"  $(SILENT)  -rsi ${MP_CC_DIR}../  
-	
 endif
 
 # ------------------------------------------------------------------------------------
 # Rules for buildStep: assemblePreproc
 ifeq ($(TYPE_IMAGE), DEBUG_RUN)
+${OBJECTDIR}/_ext/1773103261/portasm_dsPIC.o: ../../../../Source/portable/MPLAB/PIC24_dsPIC/portasm_dsPIC.S  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}/_ext/1773103261" 
+	@${RM} ${OBJECTDIR}/_ext/1773103261/portasm_dsPIC.o.d 
+	@${RM} ${OBJECTDIR}/_ext/1773103261/portasm_dsPIC.o 
+	${MP_CC} $(MP_EXTRA_AS_PRE)  ../../../../Source/portable/MPLAB/PIC24_dsPIC/portasm_dsPIC.S  -o ${OBJECTDIR}/_ext/1773103261/portasm_dsPIC.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/1773103261/portasm_dsPIC.o.d"  -D__DEBUG -D__MPLAB_DEBUGGER_ICD3=1  -omf=elf -save-temps=obj -DXPRJ_default=$(CND_CONF)  -legacy-libc  -I".." -I"../../../../../Demo/dsPIC_MPLAB" -I"../../../../Demo/dsPIC_MPLAB" -I"../../../../Source/include" -I"../../../../include" -I"../../../Common/include" -I"../../../Source/include" -I"../../../include" -I"../../Common/include" -I"../../Demo/dsPIC_MPLAB" -I"../../include" -I"../FileSystem" -I"../include" -I"." -I".." -I"." -Wa,-MD,"${OBJECTDIR}/_ext/1773103261/portasm_dsPIC.o.asm.d",--defsym=__MPLAB_BUILD=1,--defsym=__ICD2RAM=1,--defsym=__MPLAB_DEBUG=1,--defsym=__DEBUG=1,--defsym=__MPLAB_DEBUGGER_ICD3=1,-g,--no-relax,-g$(MP_EXTRA_AS_POST)
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1773103261/portasm_dsPIC.o.d" "${OBJECTDIR}/_ext/1773103261/portasm_dsPIC.o.asm.d"  -t $(SILENT)  -rsi ${MP_CC_DIR}../  
+	
 else
+${OBJECTDIR}/_ext/1773103261/portasm_dsPIC.o: ../../../../Source/portable/MPLAB/PIC24_dsPIC/portasm_dsPIC.S  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}/_ext/1773103261" 
+	@${RM} ${OBJECTDIR}/_ext/1773103261/portasm_dsPIC.o.d 
+	@${RM} ${OBJECTDIR}/_ext/1773103261/portasm_dsPIC.o 
+	${MP_CC} $(MP_EXTRA_AS_PRE)  ../../../../Source/portable/MPLAB/PIC24_dsPIC/portasm_dsPIC.S  -o ${OBJECTDIR}/_ext/1773103261/portasm_dsPIC.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/1773103261/portasm_dsPIC.o.d"  -omf=elf -save-temps=obj -DXPRJ_default=$(CND_CONF)  -legacy-libc  -I".." -I"../../../../../Demo/dsPIC_MPLAB" -I"../../../../Demo/dsPIC_MPLAB" -I"../../../../Source/include" -I"../../../../include" -I"../../../Common/include" -I"../../../Source/include" -I"../../../include" -I"../../Common/include" -I"../../Demo/dsPIC_MPLAB" -I"../../include" -I"../FileSystem" -I"../include" -I"." -I".." -I"." -Wa,-MD,"${OBJECTDIR}/_ext/1773103261/portasm_dsPIC.o.asm.d",--defsym=__MPLAB_BUILD=1,-g,--no-relax,-g$(MP_EXTRA_AS_POST)
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1773103261/portasm_dsPIC.o.d" "${OBJECTDIR}/_ext/1773103261/portasm_dsPIC.o.asm.d"  -t $(SILENT)  -rsi ${MP_CC_DIR}../  
+	
 endif
 
 # ------------------------------------------------------------------------------------

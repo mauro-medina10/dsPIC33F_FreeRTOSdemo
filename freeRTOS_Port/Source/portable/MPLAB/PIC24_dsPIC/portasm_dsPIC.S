@@ -144,7 +144,7 @@ _vPortYield:
 
         .end
 	
-#elif defined ( __dsPIC33E__ )
+#elif defined ( __dsPIC33E__ ) || defined ( __dsPIC33C__ )
         .global _vPortYield
 		.extern _vTaskSwitchContext
 		.extern uxCriticalNesting

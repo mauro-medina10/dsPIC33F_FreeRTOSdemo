@@ -26,7 +26,7 @@
         <itemPath>../../../Source/portable/MPLAB/PIC24_dsPIC/port.c</itemPath>
         <itemPath>../../../Source/queue.c</itemPath>
         <itemPath>../../../Source/tasks.c</itemPath>
-        <itemPath>../../../Source/portable/MPLAB/PIC24_dsPIC/portasm_dsPIC33C.s</itemPath>
+        <itemPath>../../../Source/portable/MPLAB/PIC24_dsPIC/portasm_dsPIC.S</itemPath>
       </logicalFolder>
       <logicalFolder name="Standard Demo Source"
                      displayName="Standard Demo Source"
@@ -72,7 +72,7 @@
         <platform>3</platform>
       </toolsSet>
       <packs>
-        <pack name="dsPIC33CH-MP_DFP" vendor="Microchip" version="1.0.31"/>
+        <pack name="dsPIC33CH-MP_DFP" vendor="Microchip" version="1.0.46"/>
       </packs>
       <compileType>
         <linkerTool>
