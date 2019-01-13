@@ -76,7 +76,7 @@ an example of an efficient driver. */
 
 /* Standard include file. */
 #include <stdlib.h>
-#include <p33CH128MP508.h>
+#include "xc.h"
 
 /* Scheduler include files. */
 #include "FreeRTOS.h"

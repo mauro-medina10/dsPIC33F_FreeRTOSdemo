@@ -114,5 +114,6 @@ to exclude the API function. */
 
 
 #define configKERNEL_INTERRUPT_PRIORITY	0x01
+#define pdMS_TO_TICKS( xTimeInMs ) ( ( TickType_t) ( ( ( TickType_t) ( xTimeInMs ) )) * ((( TickType_t) configTICK_RATE_HZ ) / ( TickType_t) 1000 ))
 
 #endif /* FREERTOS_CONFIG_H */
