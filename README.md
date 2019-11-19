@@ -2,6 +2,7 @@ Introduction:
   This repository contains the freeRTOS demos for Microchip device families like PIC24, dsPIC33E, dsPIC33F , dsPIC33C and PIC32MM.
   For the demo applications, MPLAB X and MPLAB XC16 are the preferred IDE and compiler respectively with which to build the FreeRTOS demos. 
   The board to be used to run the demo is Explorer 16/32 (Explore 16/32 is backward compatible with Explorer 16).
+  The version of freeRTOS used in this demo is : freeRTOS v9
 
 Directories:
 
