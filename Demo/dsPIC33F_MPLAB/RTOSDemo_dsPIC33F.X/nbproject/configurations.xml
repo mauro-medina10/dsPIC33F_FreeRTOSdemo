@@ -10,6 +10,8 @@
       <itemPath>../../../Source/include/queue.h</itemPath>
       <itemPath>../FreeRTOSConfig.h</itemPath>
       <itemPath>C:/Users/mwa692/Desktop/fceia/anemometro/dspic/demoFreeRTOS/freeRTOS-PIC24-dsPIC-PIC32MM/Demo/dsPIC33F_MPLAB/config.h</itemPath>
+      <itemPath>C:/Users/mwa692/Desktop/fceia/anemometro/dspic/demoFreeRTOS/freeRTOS-PIC24-dsPIC-PIC32MM/Demo/dsPIC33F_MPLAB/adc.h</itemPath>
+      <itemPath>C:/Users/mwa692/Desktop/fceia/anemometro/dspic/demoFreeRTOS/freeRTOS-PIC24-dsPIC-PIC32MM/Demo/dsPIC33F_MPLAB/pwm.h</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"
@@ -30,20 +32,9 @@
         <itemPath>../../../Source/tasks.c</itemPath>
         <itemPath>C:/Users/mwa692/Desktop/fceia/anemometro/dspic/demoFreeRTOS/freeRTOS-PIC24-dsPIC-PIC32MM/Source/portable/MemMang/heap_4.c</itemPath>
       </logicalFolder>
-      <logicalFolder name="Standard Demo Source"
-                     displayName="Standard Demo Source"
-                     projectFiles="true">
-        <itemPath>../../Common/Minimal/BlockQ.c</itemPath>
-        <itemPath>../../Common/Minimal/blocktim.c</itemPath>
-        <itemPath>../../Common/Minimal/comtest.c</itemPath>
-        <itemPath>../../Common/Minimal/crflash.c</itemPath>
-        <itemPath>../../Common/Minimal/integer.c</itemPath>
-      </logicalFolder>
       <itemPath>../main.c</itemPath>
-      <itemPath>../ParTest/ParTest.c</itemPath>
-      <itemPath>../serial/serial.c</itemPath>
-      <itemPath>../timertest.c</itemPath>
-      <itemPath>../lcd.c</itemPath>
+      <itemPath>C:/Users/mwa692/Desktop/fceia/anemometro/dspic/demoFreeRTOS/freeRTOS-PIC24-dsPIC-PIC32MM/Demo/dsPIC33F_MPLAB/adc.c</itemPath>
+      <itemPath>C:/Users/mwa692/Desktop/fceia/anemometro/dspic/demoFreeRTOS/freeRTOS-PIC24-dsPIC-PIC32MM/Demo/dsPIC33F_MPLAB/pwm.c</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"
@@ -106,8 +97,6 @@
       <item path="../../../Source/portable/MemMang/heap_1.c"
             ex="true"
             overriding="false">
-      </item>
-      <item path="../lcd.c" ex="true" overriding="false">
       </item>
       <C30>
         <property key="code-model" value="default"/>

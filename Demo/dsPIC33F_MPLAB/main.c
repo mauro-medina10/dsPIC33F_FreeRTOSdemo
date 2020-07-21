@@ -18,6 +18,10 @@
 #include "timers.h"
 #include "semphr.h"
 
+/*Peripherals drivers includes*/
+#include <adc.h>
+#include <pwm.h>
+
 // PLL activado
 #define _PLLACTIVATED_
 
@@ -31,6 +35,12 @@ static void led_test_task(void *pvParameters);
 int main(void) {
     //Inicio Hardware
     prvSetupHardware();
+    
+    //Output compare
+    pwm_init();
+
+    //ADC init
+    adc_init();
 
     if (xTaskCreate(led_test_task, "led_test_task", configMINIMAL_STACK_SIZE * 2, NULL, tskIDLE_PRIORITY + 1, NULL) != pdPASS) {
         while (1);
@@ -38,7 +48,6 @@ int main(void) {
 
     vTaskStartScheduler();
 
-    //led_test_task(NULL);
     
     while(1);
     
@@ -57,7 +66,7 @@ static void led_test_task(void *pvParameters) {
         if (flag) {
             //Apaga led
             PORTAbits.RA4 = 0;
-            //PORTBbits.RB6 = 0;
+
             //Apaga pwm
             //pwm_stop();
 
@@ -65,7 +74,7 @@ static void led_test_task(void *pvParameters) {
         } else {
             //Prende Led
             PORTAbits.RA4 = 1;
-            // PORTBbits.RB6 = 1;
+
             //Arranca pwm
             //pwm_start();
             //pwm_pulseTrain_bloq(TRAIN_PULSE_LENGTH);
@@ -81,7 +90,7 @@ static void prvSetupHardware(void){
     // Fosc= Fin*M/(N1*N2), Fcy=Fosc/2 = 35MHz
     // Fosc= 20M*28/(4*2)=70Mhz for 20M input clock
     PLLFBD = 26; // M=28
-    CLKDIVbits.PLLPOST = 0; // N2=2
+    CLKDIVbits.PLLPOST = 0; // N2=2  //Aveces se cuelga acá? se "soluciona" con un breakpoint despues de prvSetupHardware();)
     CLKDIVbits.PLLPRE = 2; // N1=4
 
     // Clock Switch to incorporate PLL

@@ -12,6 +12,7 @@
 *.mine
 
 # Object files
+*.d
 *.o
 *.ko
 *.obj
@@ -45,3 +46,5 @@
 
 # Unity runners
 *_Runner.c
+
+*.xml

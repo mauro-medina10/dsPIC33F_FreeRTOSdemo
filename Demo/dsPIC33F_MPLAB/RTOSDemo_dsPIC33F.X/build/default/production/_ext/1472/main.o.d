@@ -16,4 +16,6 @@ build/default/production/_ext/1472/main.o:  \
  ../../../Source/include/timers.h  \
 ../../../Source/include/task.h  \
  ../../../Source/include/semphr.h  \
-../../../Source/include/queue.h 
+../../../Source/include/queue.h  \
+ ../adc.h  \
+../pwm.h 
