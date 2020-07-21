@@ -37,6 +37,8 @@ void adc_init(void);
 
 void adc_start(void);
 
+void adc_stop(void);
+
 #ifdef	__cplusplus
 extern "C" {
 #endif /* __cplusplus */

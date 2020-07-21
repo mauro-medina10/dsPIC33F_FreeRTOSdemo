@@ -66,6 +66,11 @@ void adc_start(void) {
     AD1CON1bits.ADON = 1; // Turn on ADC1
 }
 
+void adc_stop(void) {
+    AD1CON1bits.ADON = 0; // Turn off ADC1
+    IFS0bits.AD1IF = 0; // Clear the A/D interrupt flag bit
+    IEC0bits.AD1IE = 0; // Do Not Enable A/D interrupt 
+}
 void __attribute__((interrupt, no_auto_psv)) _ADC1Interrupt(void) {
     //Leo valor ADC
     ADCvalue[indice] = ADC1BUF0;

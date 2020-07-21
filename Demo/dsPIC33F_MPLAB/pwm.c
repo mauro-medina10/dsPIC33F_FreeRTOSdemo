@@ -60,6 +60,8 @@ void pwm_stop(void) {
     T3CONbits.TON = 0;
 }
 
+/*Configura el comparador para enviar un tren de pulsos de longitud definida.
+ No se debe iniciar el comparador antes con pwm_start();*/
 void pwm_pulseTrain_bloq(uint8_t n) {
     //Reinicio timer
     TMR3 = 0;
