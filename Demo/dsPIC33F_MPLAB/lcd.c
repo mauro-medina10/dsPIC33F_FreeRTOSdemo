@@ -116,7 +116,7 @@ static void prvLCDClear( void );
 #define lcdLINE2			( 0xc0 )
 
 /* SFR that seems to be missing from the standard header files. */
-#define PMAEN				*( ( unsigned short * ) 0x60c )
+//#define PMAEN				*( ( unsigned short * ) 0x60c )
 
 /* LCD R/W signal. */
 #define  lcdRW  LATDbits.LATD5
