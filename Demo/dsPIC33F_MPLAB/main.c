@@ -59,10 +59,9 @@ static void led_test_task(void *pvParameters) {
     uint8_t flag = 0;
 
     while (1) {
-        while (count < 16666666) {
-            count++;
-        }
-        count = 0;
+        
+        vTaskDelay(2000 / portTICK_PERIOD_MS);
+        
         if (flag) {
             //Apaga led
             PORTAbits.RA4 = 0;
@@ -90,8 +89,8 @@ static void prvSetupHardware(void){
     // Fosc= Fin*M/(N1*N2), Fcy=Fosc/2 = 35MHz
     // Fosc= 20M*28/(4*2)=70Mhz for 20M input clock
     PLLFBD = 26; // M=28
-    CLKDIVbits.PLLPOST = 0; // N2=2  //Aveces se cuelga acá? se "soluciona" con un breakpoint despues de prvSetupHardware();)
     CLKDIVbits.PLLPRE = 2; // N1=4
+    CLKDIVbits.PLLPOST0 = 0; // N2=2  //Aveces se cuelga acá? se "soluciona" con un breakpoint despues de prvSetupHardware();)
 
     // Clock Switch to incorporate PLL
     __builtin_write_OSCCONH(0x03); // Initiate Clock Switch to 

@@ -5,8 +5,9 @@
         <group>
             <file>file:/C:/Users/mwa692/Desktop/fceia/anemometro/dspic/demoFreeRTOS/freeRTOS-PIC24-dsPIC-PIC32MM/Demo/dsPIC33F_MPLAB/main.c</file>
             <file>file:/C:/Users/mwa692/Desktop/fceia/anemometro/dspic/demoFreeRTOS/freeRTOS-PIC24-dsPIC-PIC32MM/Demo/dsPIC33F_MPLAB/adc.c</file>
+            <file>file:/C:/Users/mwa692/Desktop/fceia/anemometro/dspic/demoFreeRTOS/freeRTOS-PIC24-dsPIC-PIC32MM/Source/portable/MPLAB/PIC24_dsPIC/portmacro.h</file>
             <file>file:/C:/Users/mwa692/Desktop/fceia/anemometro/dspic/demoFreeRTOS/freeRTOS-PIC24-dsPIC-PIC32MM/Demo/dsPIC33F_MPLAB/FreeRTOSConfig.h</file>
-            <file>file:/C:/Users/mwa692/Desktop/fceia/anemometro/dspic/demoFreeRTOS/freeRTOS-PIC24-dsPIC-PIC32MM/Demo/dsPIC33F_MPLAB/pwm.c</file>
+            <file>file:/C:/Users/mwa692/Desktop/fceia/anemometro/dspic/demoFreeRTOS/freeRTOS-PIC24-dsPIC-PIC32MM/Source/tasks.c</file>
         </group>
     </open-files>
 </project-private>
